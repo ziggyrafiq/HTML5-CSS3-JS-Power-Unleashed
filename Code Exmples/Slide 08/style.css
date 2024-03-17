@@ -1,0 +1,28 @@
+/* Example CSS3 styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+ 
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Additional styles for responsiveness */
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 0 1em;
+    }
+    img{
+        width: 90%;
+    }
+}

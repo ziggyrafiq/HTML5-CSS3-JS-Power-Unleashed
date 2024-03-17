@@ -1,0 +1,21 @@
+<!-- Example HTML5 Canvas -->
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Example</title>
+</head>
+<body>
+<main>
+    <canvas id="myCanvas" width="200" height="100"></canvas>
+</main>
+    <script>
+        var canvas = document.getElementById('myCanvas');
+        var context = canvas.getContext('2d');
+
+        context.fillStyle = 'green';
+        context.fillRect(10, 10, 150, 80);
+    </script>
+</body>
+</html>

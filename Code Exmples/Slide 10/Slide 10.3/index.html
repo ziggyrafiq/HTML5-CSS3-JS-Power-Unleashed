@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Animation Example</title>
+    <style>
+        /* Example CSS3 Animation */
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        .slide-in {
+            animation: slideIn 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-in">
+        <!-- Content to be animated goes here -->
+        <p>This content will slide in using CSS3 animation.</p>
+    </div>
+</body>
+</html>

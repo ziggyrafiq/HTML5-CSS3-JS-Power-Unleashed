@@ -1,0 +1,19 @@
+/* Example of using Flexbox for a simple layout */
+body {
+background-color: lightgoldenrodyellow;
+
+}
+/* Styles for a container using Flexbox */
+.flex-container {
+    display: flex; /* Use Flexbox */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+}
+
+/* Example of using Grid for a more complex layout */
+
+/* Styles for a container using Grid */
+.grid-container {
+    display: grid; /* Use Grid */
+    grid-template-columns: repeat(3, 1fr); /* Create three columns with equal width */
+    gap: 20px; /* Set the gap between grid items */
+}

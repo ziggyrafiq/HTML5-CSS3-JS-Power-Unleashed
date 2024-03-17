@@ -1,0 +1,25 @@
+/* Example of a simple media query for responsive design */
+
+/* Default styles for the body */
+body {
+    font-size: 16px; /* Default font size */
+    background-color: lightgoldenrodyellow;
+}
+
+h1{
+    font-size:30px;
+}
+
+/* Media query for screens with a width of 600 pixels or less */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 34px; /* Adjusted font size for smaller screens */
+        color: chocolate;
+    }
+    h1{
+        font-size: 45px;
+        color:  red;
+    }
+
+    /* You can include additional styles for smaller screens here */
+}

@@ -1,0 +1,21 @@
+{
+  "name": "HTML5, CSS3, and JavaScript: Unleashing Their Power",
+  "short_name": "HTML5 with CSS3 and JavaScript",
+  "description": "Designing Dynamic and Immersive Web Experiences",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/ms-icon-310x310.png",
+      "sizes": "310x310",
+      "type": "image/png"
+    }
+  ]
+}

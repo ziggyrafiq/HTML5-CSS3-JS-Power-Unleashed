@@ -1,0 +1,30 @@
+/* Example CSS3 media queries for responsiveness */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color:lightgoldenrodyellow
+}
+
+img{
+    width: 50%;
+    border: 5px red solid;
+}
+/* Default styles for larger screens */
+
+@media only screen and (max-width: 600px) {
+    /* Styles for screens 600 pixels wide or smaller */
+    body {
+        background-color: lightblue; /* Example: Change background color for smaller screens */
+    }
+    
+img{
+    width: 15%;
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for screens between 601 and 1024 pixels wide */
+    body {
+        background-color: lightgreen; /* Example: Change background color for medium-sized screens */
+    }
+}
